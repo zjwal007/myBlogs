@@ -8,7 +8,7 @@ const { footer, editLink, carbonAds, docFooter } = Common
 export default {
   lang: "en-US",
   title: "VitePress",
-  base: "/myblogs/",
+  base: "/myBlogs/",
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
     logo: '',
