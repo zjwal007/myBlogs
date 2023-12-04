@@ -3,23 +3,20 @@ import defaultSideBar from '../config/sideBar'
 import defaultSocialLinks from '../config/socialLinks'
 import Common from '../config/common'
 
-const { footer, editLink, carbonAds, docFooter } = Common
+const { footer, docFooter } = Common 
 
 export default {
-  lang: "en-US",
-  title: "VitePress",
+  lang: "zh-CN",
+  title: "张杰的个人博客",
   base: "/myBlogs/",
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
-    logo: '',
-    siteTitle: '',
-    lastUpdatedText: 'Updated Date',
     nav: defaultNavMenu,
-    sideBar: defaultSideBar,
+    sidebar: {
+      "/home/": defaultSideBar
+    },
     socialLinks: defaultSocialLinks,
     footer,
-    editLink,
-    carbonAds,
     docFooter,
   }
 };

@@ -18,12 +18,14 @@ type Sidebar = SidebarGroup[] | SidebarMulti;
 
 const defaultSideBar: Sidebar = [
   {
-    text: "Guide",
+    text: "homePage",
+    collapsible: true,
     items: [
-      { text: "Introduction", link: "/introduction" },
-      { text: "Getting Started", link: "/getting-started" },
+      { text: "homePage", link: "/home/homePage.md" },
+      { text: "introduction", link: "/home/introduction.md" }
     ],
-  },
-];
+  }
+]
+  
 
 export default defaultSideBar;

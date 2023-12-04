@@ -14,9 +14,7 @@ interface SocialLink {
 }
 
 const defaultSocialLinks: Array<SocialLink> = [
-  { icon: "github", link: "https://github.com/vuejs/vitepress" },
-  { icon: "twitter", link: "..." },
-  { icon: "discord", link: "..." },
+  { icon: "github", link: "https://github.com/vuejs/vitepress" }
 ];
 
 export default defaultSocialLinks;

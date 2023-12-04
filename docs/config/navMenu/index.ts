@@ -13,15 +13,7 @@ interface NavItemWithChildren {
 type NavItem = NavItemWithLink | NavItemWithChildren;
 
 const defaultNavMenu: Array<NavItem> = [
-  { text: "Guide", link: "/guide" },
-  {
-    text: "Dropdown Menu",
-    items: [
-      { text: "Item A", link: "/item-1" },
-      { text: "Item B", link: "/item-2" },
-      { text: "Item C", link: "/item-3" },
-    ],
-  },
+  { text: "主页", link: "/home/homePage", activeMatch: '/home/' },
 ];
 
 export default defaultNavMenu;
