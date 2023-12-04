@@ -13,7 +13,7 @@ interface NavItemWithChildren {
 type NavItem = NavItemWithLink | NavItemWithChildren;
 
 const defaultNavMenu: Array<NavItem> = [
-  { text: "主页", link: "/home/homePage", activeMatch: '/home/' },
+  { text: "主页", link: "/2023-12-03/2023-12-03-0001", activeMatch: '/2023-12-03/' },
 ];
 
 export default defaultNavMenu;

@@ -9,12 +9,12 @@ export default {
   lang: "zh-CN",
   title: "张杰的个人博客",
   base: "/myBlogs/",
-  description: "Vite & Vue powered static site generator.",
+  description: "随便写着玩玩.",
+  srcDir: './src',
+  assetsDir: 'static',
   themeConfig: {
     nav: defaultNavMenu,
-    sidebar: {
-      "/home/": defaultSideBar
-    },
+    sidebar: defaultSideBar,
     socialLinks: defaultSocialLinks,
     footer,
     docFooter,
