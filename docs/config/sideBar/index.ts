@@ -17,12 +17,12 @@ interface SidebarMulti {
 type Sidebar = SidebarGroup[] | SidebarMulti;
 
 const defaultSideBar: Sidebar ={
-  "/2023-12-05/": [
+  "/如何使用chatGPT/": [
     {
-      text: "2023-12-05",
+      text: "如何使用chatGPT",
       collapsible: true,
       items: [
-        { text: "如何使用chatGPT", link: "/2023-12-05/0001.md" }
+        { text: "如何使用chatGPT", link: "/如何使用chatGPT/0001.md" }
       ],
     }
   ]
