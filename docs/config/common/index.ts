@@ -10,7 +10,7 @@ interface DocFooter {
 
 const footer: Footer = {
   message: "张杰的个人博客",
-  copyright: "Copyright © 2023-12-03 张杰",
+  copyright: "Copyright © 2023-12-05 张杰",
 };
 
 const docFooter: DocFooter = {

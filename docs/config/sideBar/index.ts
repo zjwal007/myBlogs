@@ -17,13 +17,12 @@ interface SidebarMulti {
 type Sidebar = SidebarGroup[] | SidebarMulti;
 
 const defaultSideBar: Sidebar ={
-  "/2023-12-03/": [
+  "/2023-12-05/": [
     {
-      text: "2023-12-03",
+      text: "2023-12-05",
       collapsible: true,
       items: [
-        { text: "githubPage链接", link: "/2023-12-03/2023-12-03-0001.md" },
-        { text: "vitepress基础配置", link: "/2023-12-03/2023-12-03-0002.md" }
+        { text: "如何使用chatGPT", link: "/2023-12-05/0001.md" }
       ],
     }
   ]
