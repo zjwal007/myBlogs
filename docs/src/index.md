@@ -2,7 +2,6 @@
 layout: home
 
 title: 个人简介
-titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
   name: 张杰
