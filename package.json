@@ -11,6 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.31"
+    "@types/node": "^20.10.3",
+    "vitepress": "^1.0.0-rc.31"                            
+  },
+  "dependencies": {
+    "@iminu/vitepress-plugin-auto-sidebar": "^1.0.3",
+    "glob": "^10.3.10"
   }
 }

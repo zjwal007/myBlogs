@@ -11,7 +11,6 @@ export default {
   base: "/myBlogs/",
   description: "随便写着玩玩.",
   srcDir: './src',
-  assetsDir: 'static',
   themeConfig: {
     nav: defaultNavMenu,
     sidebar: defaultSideBar,
